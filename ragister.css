@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+ 
+
+.container-fluid{
+    padding:1% 13% 7% ;
+ 
+    
+}
+
+
+#title{
+    background :url(./ragistratio/3.jpg ) no-repeat center center/cover; 
+    z-index: -1;
+    color:#000;
+}
+#title #navbarSupportedContent a{
+    color: white;
+}
+#title li a {
+    color: black;
+    font-size: 1.3rem;
+    
+}
+.row h1{ font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+/* navigation bar */
+
+
+#title .navbar{
+    padding-left: 0;
+    padding-bottom: 4rem;
+}
+
+.nav-item{
+    padding: 0px 15px;
+}
+#title .navbar-brand{
+    font-family: Ubantu;
+    font-size: 2rem;
+
+}
+.navbar-toggler{
+    background-color: rgb(212, 72, 8);
+}
+
+/* button */
+ 
+.new-button{
+    margin: 3rem 1rem;
+
+} 
+/* title-image */
+.title-image{
+width: 60%;
+transform: rotate(1deg);
+overflow: hidden;
+}
+
+/* feature-boxes */
+.feature-box1{
+    padding-bottom: 4%  ;
+    display: flexbox;
+    justify-content: center;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.feature-box1 h2{
+    font-size: 3rem;
+   
+}
+#features{
+    
+    padding: 3% 15%;
+}
+#features .feature-box{
+    text-align: center;
+    padding: 3%;
+}
+h3{
+    font-family: sans-serif ;
+}
+.icon:hover{
+    color: #f80e0e;
+    
+}
+ /* Testimonials */
+ #testimonials{
+     padding: 5% 15%;
+     text-align: center;
+     background-color:#f8fafb;
+ }
+ #testimonials h2{
+     font-size: 3rem;
+     line-height:4rem;
+ }
+ 
+ #press{
+    background-color:#f8fafb;
+}
+ #press img{
+     width: 19%;
+     padding: 2%;
+    text-align: center; }
+
+.carousel-item{
+    
+    width: 100%;
+}
+
+/* pricing */
+#pricing{
+    
+    padding: 100px;
+    text-align: center;
+
+}
+.pricing-title{
+text-align: center;
+font-size: 2rem;
+font-family: 'Lobster', cursive;
+padding: 3%;}
+
+.pricing-coulum{
+    padding: 2rem;
+    
+}
+
+
+#cta div h3{
+    padding: 2% 15%;
+    font-size: 3rem;
+}
+
+/* footer */
+#footer{
+padding: 4%;
+}
+
+    
+
+@media (max-width: 500px){
+    #title{
+        text-align: center;
+    }
+  
+
+}
